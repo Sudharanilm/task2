@@ -11,3 +11,87 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.flex2{
+  margin-left: 20rem;
+}
+.mr-4{
+  margin-left: 22rem;
+} */
+
+
+h1,
+p {
+  font-family: Lato;
+}
+
+.d-flex {
+  display: flex;
+  margin-left: 2rem;
+  text-align: center;
+}
+
+.flex-row {
+  /* padding: 8px; */
+}
+
+.bar {
+  display: inline;
+  border: 1px solid black;
+  font-weight: bold;
+  font-size: x-small;
+  /* padding-left: 2px; */
+}
+
+.btn:hover {
+  border: none;
+}
+
+.bar1 {
+  border-right: 1px solid black;
+  padding-right: 6px;
+  border-radius: 1px;
+}
+
+.button {
+  display: inline;
+  width: 10rem;
+  border-top: 1px solid black;
+  font-size: small;
+  /* padding: 2px 8px; */
+}
+
+.w3-show {
+  width: 20rem;
+  border: 2px solid black;
+  padding: 5px;
+}
+
+  .d-print-none {
+    text-overflow: ellipsis !important;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    vertical-align: middle;
+    width: 13rem;
+    display: inline-block;
+  }
+
+  .card-title {
+    text-overflow: ellipsis !important;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    vertical-align: middle;
+    width: 13rem;
+    display: inline-block;
+  }
+
+  .rounded-bottm {
+    border-bottom: 4px light;
+
+    border-end-start-radius: 1.5rem;
+    border-end-end-radius: 1.5rem;
+  }
